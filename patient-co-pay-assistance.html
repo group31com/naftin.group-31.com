@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:ng="http://angularjs.org" id="ng-app" ng-app="myweb">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="utf-8">
+  <title>Co-Pay Assistance | Naftin.com</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta id="viewport" name="viewport" content="width=device-width, maximum-scale=1">
+  <base href="/" target="_self">
+  <link href="//cloud.typenetwork.com/projects/825/fontface.css/" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="//fast.fonts.net/jsapi/0ec7f1a2-9bb2-481f-9711-157a689640c7.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Open Sans:300,400,600,700']
+      }
+    });
+  </script>
+  <script src="js/vendor.js"></script>
+  <script src="js/templates.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/isi-scroll.js"></script>
+  <script src="js/index.js"></script>
+  <link rel="shortcut icon" href="assets/favicon.png">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-89239852-1', 'auto');
+    ga('send', 'pageview');
+    
+  </script>
+</head>
+<body>
+  <div ng-controller="MainController">
+    <div class="container">
+      <div id="page-wrapper">
+        <div class="page-masthead">
+          <div class="header">
+            <div class="logo"><a class="img" href="/" target="_self"></a>
+            </div>
+            <div class="nav-toggle" ng-class="navToggle ? 'nav-show' : 'nav-hide'"><a href ng-click="navToggle = !navToggle"></a></div>
+          </div>
+          <div class="nav nav-hide" ng-class="navToggle ? 'nav-show' : 'nav-hide'">
+            <ul class="patient-nav">
+              <li class="patient-nav__item "><a href="patient-athletes-foot.html" target="_self">Athlete's Foot Between the Toes</a>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-nav__item "><a href="patient-about-naftin-gel.html" target="_self">About Naftin Gel 2%</a>
+                <ul class="sub-nav">
+                  <li class="sub-nav__item "><a href="patient-faq.html" target="_self">FAQs</a></li>
+                  <li class="divider"></li>
+                  <li class="sub-nav__item "><a href="patient-talking-to-your-doctor.html" target="_self">Talking to Your Doctor</a></li>
+                  <li class="divider"></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-nav__item "><a href="patient-how-to-use-naftin.html" target="_self">Keys to Success</a>
+                <ul class="sub-nav">
+                  <li class="sub-nav__item "><a href="patient-foot-care-tips.html" target="_self">Daily Foot Care</a></li>
+                  <li class="divider"></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-nav__item active"><a href="patient-co-pay-assistance.html" target="_self">Co-Pay Offer</a>
+              </li>
+            </ul>
+            <ul class="patient-header-nav">
+              <li class="patient-header-nav__item "><a href="hcp-index.html" target="_self">Healthcare Professionals</a>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-header-nav__item "><a href="/assets/naftingel_pi.pdf" target="_blank">Full Prescribing Information</a>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-header-nav__item "><a scroll-to-item scroll-to="#page-isi">Important Safety Information</a>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-header-nav__item "><a href="patient-contact-us.html" target="_self">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-header">
+          <div class="naftin-gel"></div>
+        </div>
+        <div class="page-content patient-co-pay-assistance">
+          <div class="copy-wide">
+            <div class="co-pay-graphic">
+              <div class="img"></div>
+            </div>
+            <h1>NAFTIN<sup>&reg;</sup> GEL 2% Co&#8209;Pay Savings Program</h1>
+            <h2>$22 out-of-pocket cost for many eligible patients</h2>
+            <ul class="copay-text">
+              <li>Instant pharmacy co-pay savings are now available to eligible patients. If you qualify, simply take your prescription for NAFTIN Gel 2% to a participating pharmacy.</li>
+              <li>The NAFTIN Gel 2% Co-Pay Savings Program is available at pharmacies nationwide. </li>
+              <li>Terms and restrictions apply. <br>Please see <a scroll-to-item scroll-to="#terms">complete terms and conditions</a> for details.</li>
+            </ul>
+            <a onclick="ga('send', 'event', 'PDF', 'Download', 'Coupon', 1);" class="button" href="/assets/NAFTIN_Print_Coupon_2019_Final.pdf" target="_blank">Print Savings Card</a>
+          </div>
+          <div class="copy-wide"> 
+            <h2 id="terms">Terms and Conditions</h2>
+            <div class="aechen">
+              <h4>ELIGIBILITY CRITERIA &amp; TERMS:</h4>
+              <p>
+                This savings card is not valid for use by patients covered by 
+                any federal or state funded healthcare program (including, but not limited to, Medicare (Part D and 
+                Medigap), Medicaid, any state pharmaceutical assistance program, TRICARE, VA, or DoD), or private 
+                indemnity or HMO insurance plans that reimburse patient for the entire cost of prescription drugs. 
+                Offer good only in the U.S., including Puerto Rico. <strong>Not valid if an AB-rated generic drug is 
+                available for the product.</strong> Void where prohibited by law, taxed, or restricted. This offer cannot be 
+                combined with any other promotional offer. Sebela Pharmaceuticals reserves the right to rescind, revoke, or amend 
+                this offer without notice at any time. No cash value. Not eligible for sale, purchase, trade or 
+                counterfeit.
+              </p>
+              <h4>TO PATIENT:</h4>
+              <p>By using this savings card, you certify that (a) you are an eligible patient, (b) you will not submit this prescription for reimbursement under any federal healthcare program including, without limitation, Medicaid, Medicare (Part D or otherwise), or any similar federal or state programs, including any state pharmaceutical assistance program, or under any private insurance, HMO, or other third-party payment arrangement, (c) you will not submit any part of this prescription to count toward your out-of-pocket cost under your prescription drug plan, such as the “True Out-Of-Pocket (“TrOOP”) expenses under Medicare Part D and (d) you understand and agree to comply with the terms and conditions of this offer.</p>
+              <h4>TO PHARMACY:</h4>
+              <p>By submitting a transaction to OPUS Health, a division of IMS Incorporated you certify that (a) you have received this savings card and a valid prescription from an eligible patient, (b) you have dispensed the product as indicated, (c) you have not submitted, and will not submit (i) a claim for reimbursement to the patient or to any third-party payer, governmental or otherwise, or (ii) any portion of this prescription to a third-party payer for purposes of counting it toward the patient’s out-of-pocket expenses (such as TrOOP under Medicare Part D) and (d) you will otherwise comply with the terms hereof. You further certify that your participation in this program is consistent with all applicable state laws and any obligations, contractual or otherwise, that you have as a pharmacy provider.</p>
+              <h5>For patients without insurance (cash pay):</h5>
+              <p>
+               Please submit this claim to OPUS Health, a division of IMS Incorporated. A valid Other Coverage Code 
+               is required. The patient pay amount will be reduced by $0-$448, after the patient pays the first $75, 
+               and you will receive this amount in your reimbursement from OPUS Health, plus a handling fee.
+             </p>
+             <h5>For patients with insurance</h5>
+             <p>
+               Submit the claim to the Primary Third Party Payer first, then submit the balance due to OPUS Health 
+               as a Secondary Payer as a co-pay-only billing using Other Coverage Code indication. The patient pay 
+               amount will be reduced by $0-$500, after the patient pays the first $22, and you will receive this 
+               amount in your reimbursement from Opus Health, plus a handling fee.
+             </p>
+             <p>For any questions regarding OPUS Health online processing, please call the Help Desk at 1-800-364-4767.</p>
+             <p><strong>For any questions regarding this Coupon, please call 1-888-296-1852.</strong></p>
+           </div>
+         </div>
+       </div>
+       <script src="js/tracking.js"></script>
+       <script src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+       <div id="page-isi-scroll-trigger"></div>
+       <div class="fixed" id="page-isi">
+        <div class="isitrigger"><span class="desktop expand show">Expand</span><span class="desktop collapse">Collapse</span><span class="mobile expand show">Click to See Complete Safety Information</span><span class="mobile collapse">Close</span></div>
+        <div class="overflow">
+          <div class="gel">
+            <h3>NAFTIN<sup>&reg;</sup> (Naftifine HCl) Gel, 2%</h3>
+            <div class="col-1">
+              <p><strong>INDICATIONS AND USAGE</strong>: NAFTIN (naftifine hydrochloride) Gel, 2% is an allylamine antifungal indicated for the treatment of athlete’s foot between the toes caused by fungus in patients 12 years of age and older.</p>
+              <p><strong>WARNING</strong>: If there is redness or irritation on the skin with the use of NAFTIN Gel, 2%, stop treatment and speak with your doctor.</p>
+              <p><strong>INFORMATION FOR PATIENTS:</strong></p>
+              <p>1. NAFTIN Gel, 2% is only for use on top of the skin. NAFTIN GEL, 2% should not be used in the mouth, eyes, or vagina.</p>
+              <p>2. If there is irritation or redness with the use of NAFTIN GEL 2%, treatment should be stopped. Contact your doctor if you have irritation or redness on the skin after using NAFTIN Gel, 2%.</p>
+              <p><strong>Cancer Risk</strong>: It is not known whether NAFTIN causes cancer or causes a risk of cancer. Long-term studies to evaluate the risk of cancer from NAFTIN Gel, 2% have not been done.</p>
+            </div>
+            <div class="col-2">
+              <p><strong>Pregnancy</strong>: Let your doctor know if you are pregnant or plan to become pregnant. NAFTIN Gel, 2% should be used during pregnancy only if the benefit to the mother is greater than the risk to the unborn baby.</p>
+              <p><strong>Nursing Mothers</strong>: It is not known whether this drug passes into breast milk. Because many drugs pass into breast milk, women who are nursing should take care when using NAFTIN Gel, 2%.</p>
+              <p><strong>Pediatric Use</strong>: Safety and effectiveness in children under 12 years old has not been proven.</p>
+              <p><strong>SIDE EFFECTS</strong>: In clinical trials with NAFTIN Gel, 2%, the most common side effect was itching on the skin where the medicine was applied.</p>
+              <br/>
+              <p>
+                <b>You are encouraged to report negative side effects of prescription drugs to the FDA.<br/> 
+                  Visit <a href="http://www.fda.gov/medwatch">http://www.fda.gov/medwatch</a> or call 1800-FDA-1088.</b>
+                </p>
+              </div>
+            </div>
+            <div class="references"> 
+              <p class="footnote">
+                <strong>REFERENCES: 1.</strong> Vlahovic TC. Choosing the right vehicle. <i>Podiatry Management</i>. 
+                June/July 2008;209-218. 
+                <strong>2.</strong> Data on file, Sebela Pharmaceuticals Inc. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="page-footer">
+          <div class="footer-nav-wrapper">
+            <ul class="patient-footer-nav">
+              <li class="patient-footer-nav__item "><a href="http://sebelapharma.com" target="_blank">About Us</a>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-footer-nav__item "><a target="_blank" href="http://www.sebelapharma.com/privacy-usage-policy/" target="_self">Privacy &amp; Usage Policy</a>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-footer-nav__item "><a href="patient-contact-us.html" target="_self">Contact Us</a>
+              </li>
+              <li class="divider"></li>
+              <li class="patient-footer-nav__item "><a href="http://sebelapharma.com" target="_blank">SebelaPharma.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer">
+            <p class="small">NAFTIN Gel, 2% is manufactured for Sebela Pharmaceuticals Inc., Roswell, GA 30076.</p>
+            <p class="small">
+             NAFTIN and the NAFTIN logo are registered trademarks of Sebela International Ltd.<br>
+             Fungicidal Power You Can Trust is a registered trademark of Sebela International Ltd.<br/>
+             &copy;2019 Sebela Pharmaceuticals Inc. All rights reserved. 
+             <span class="nowrap">NAF-772-0119F</span>
+           </p>
+           <p class="small">This site is intended for US residents only.</p>
+         </div>
+         <div class="logo">
+           <a class="img" href="http://www.sebelapharma.com/" target="_blank"></a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</body>
+</html>
